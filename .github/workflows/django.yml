@@ -54,7 +54,7 @@ jobs:
 
   cobertrura:
     runs-on: ubuntu-latest
-    needs: build
+
 
     steps:
       - name: Download coverage report
